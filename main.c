@@ -130,8 +130,6 @@ void playRound(int *balance) {
         printf("won $%d\n", bet);
     } else if (bet < 0) {
         printf("lost $%d\n", -bet);
-    } else {
-        printf("did not win or lose any money.\n");
     }
     *balance += bet;
     printf("Your balance after this round: $%d\n", *balance);
@@ -157,7 +155,6 @@ int main() {
             printf("You have run out of balance.\n");
             break;
         }
-        printf("Your Current Balance is: $%d\n", balance);
         playing = askIfPlaying(balance);
     }
 
