@@ -49,14 +49,14 @@ void playRound(int *balance) {
 
     switch (input) {
         case 'a':
-            if (winningNumber % 2 == 0) { // Even
+            if (winningNumber % 2 == 0) { // Even Number
                 bet = gamble;
             } else {
                 bet = -gamble;
             }
             break;
         case 'b':
-            if (winningNumber % 2 != 0) {
+            if (winningNumber % 2 != 0) { // Odd Number
                 bet = gamble;
             } else {
                 bet = -gamble;
