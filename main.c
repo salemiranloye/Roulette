@@ -158,6 +158,6 @@ int main() {
         playing = askIfPlaying(balance);
     }
 
-    printf("Thank you for playing. Your final balance is: $%d\n", balance);
+    printf("\nThank you for playing. Your final balance is: $%d\n", balance);
     return 0;
 }
